@@ -1,0 +1,50 @@
+/* reset.css - Para garantir que as margens e paddings padrão sejam removidos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #4CAF50; /* Cor verde para destacar o título */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  aside {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  picture {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordas arredondadas para a imagem */
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify; /* Justificar o texto para uma melhor aparência */
+    line-height: 1.8;
+    text-align: center;
+  }
+  
+  
